@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #1f242d;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+a,
+li {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+A:hover {
+  color: aqua;
+}
+h1,
+h2,
+h3 {
+  color: white;
+}
+header {
+  margin-top: 100px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+span {
+  color: aqua;
+}
+.contain {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+p {
+  color: white;
+  margin-top: 30px;
+}
+.img {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+}
+h3 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.text > h1 {
+  font-size: 50px;
+}
+button {
+  width: 176px;
+  height: 45px;
+  background: #00eeff;
+  border: 0;
+  border-radius: 40px;
+ 
+  margin-top: 30px;
+}
+
+button:hover{ box-shadow: 0px 0px 10px 0px #00eeff; transition: 0.3s all ease;}
+
+main > h1 {
+  text-align: center;
+}
+main {
+  margin-top: 100px;
+}
+
+.info {
+  width: 380px;
+  height: 369px;
+  border: 0;
+  border-radius: 20px;
+  background: #323946;
+  text-align: center;
+  padding: 30px;
+}
+h2 {
+  font-size: 30px;
+}
+.card {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+p {
+  font-size: 20px;
+}
+.cert {
+  display: none;
+}
+.rasmla {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 50px;
+}
+.rasmotchim {
+  margin-top: 100px;
+  background: #323946;
+}
+.rasmla > img {
+  border-radius: 20px;
+}
+.rasmotchim > h1 {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.inputs > h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.inputs {
+  margin-top: 150px;
+}
+input {
+  width: 343px;
+  height: 55px;
+  background: #323946;
+  border: 0;
+  text-align: center;
+  border-radius: 8px;
+  margin: 6px;
+}
+.input {
+  margin-top: 50px;
+  text-align: center;
+}
+textarea {
+  width: 700px;
+  height: 280px;
+  border: 0;
+  background: #323946;
+  border-radius: 8px;
+}
+.inputs > button {
+  margin-left: 580px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background: #323946; margin-top: 100px;
+}
+
+
+
+
+@media screen and (min-width:300px) and (max-width:600px) {
+    .cert{display: block;}
+    ul{display: none;}
+
+        
+        header{flex-wrap: wrap;display: flex; margin-left: 10px;}
+        .card{flex-wrap: wrap;display: flex;justify-content: center; }
+.rasmotchim{flex-wrap: wrap;}
+.rasmla{display: flex;flex-wrap: wrap;}
+.input{flex-wrap: wrap;}
+textarea{width: 366px;
+    height: 204px;
+   
+    border-radius: 6.4px;
+    }
+    .inputs>button{margin-left: 130px;}
+}
